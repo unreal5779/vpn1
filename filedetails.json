@@ -10,8 +10,6 @@ persist-key
 persist-tun
 #auth-user-pass
 auth-user-pass
-vpnbook
-emw79zs
 comp-lzo
 verb 3
 cipher AES-256-CBC
