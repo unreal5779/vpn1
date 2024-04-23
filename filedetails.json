@@ -4,12 +4,15 @@
 dev tun2
 proto udp
 remote 198.7.62.204 25000
-#remote us1.vpnbook.com 25000
+
 resolv-retry infinite
 nobind
 persist-key
 persist-tun
 #auth-user-pass
+auth-user-pass
+vpnbook
+emw79zs
 comp-lzo
 verb 3
 cipher AES-256-CBC
@@ -91,11 +94,7 @@ tnqLuYddL+hsxXXfcIVNjLVat3L2WN0YKZtbzWD8TW8hbbtnuS8F8REg7YvYjkZJ
 t8VO6ZmI7I++borJBNmbWS4gEk85DYnaLI9iw4oF2+Dr0LKKAaUL+Pq67wmvufOn
 hTobb/WAAcA75GKmU4jn5Ln2
 -----END PRIVATE KEY-----
-</key>
-<auth-user-pass>
-vpnbook
-emw79zs
-</auth-user-pass>"},
+</key>"},
      
     ]
 }
