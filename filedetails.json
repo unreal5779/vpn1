@@ -4,7 +4,6 @@
 dev tun2
 proto udp
 remote 198.7.62.204 25000
-
 resolv-retry infinite
 nobind
 persist-key
